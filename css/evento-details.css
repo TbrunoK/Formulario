@@ -1,16 +1,23 @@
-/* reset */
+@import url(./colors.css);
+@import url(./fonts.css);
+/* Reset */
 * {
   margin: 0;
-  color: var(--primary-color-text);
+  padding: 0;
+  box-sizing: border-box;
 }
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Variáveis CSS */
 
 .event-html {
   background-color: var(--details-color-secundary);
-}
-
-.details-event h1 {
-  position: absolute;
-  margin-top: -20px;
 }
 
 .body-data {
@@ -19,33 +26,47 @@
   background-color: black;
   padding: 20px;
   margin: 0 auto;
-  border: 1px solid #41cde1;
 }
 
-.body-data::before {
-  width: 1067px;
-  height: 1010px;
-  background-color: var(--details-color-primary);
-}
 .page-data {
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  margin-top: 50px; /* Ajustado para uma margem menor */
+  font-size: 18px;
+  background-color: rgb(19, 19, 19);
+  color: var(--primary-color-text);
+}
 
-  margin-top: 250px;
+.header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .page-data h1 {
-  display: flex;
-  position: absolute;
-  margin-top: -40px;
   color: var(--details-color-primary);
 }
 
 .event-title {
-  display: flex;
-  margin: 30px auto 0px auto;
-
-  justify-content: center;
+  text-align: center;
   color: var(--primary-color-text);
+  margin-bottom: 20px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Duas colunas: uma para rótulos, outra para valores */
+  gap: 10px 20px; /* Espaçamento entre linhas e colunas */
+  align-items: center;
+}
+
+.infos {
+  color: var(--infos);
+}
+
+.infos a {
+  color: var(--infos);
+  text-decoration: none;
 }
