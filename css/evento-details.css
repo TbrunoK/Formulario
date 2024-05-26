@@ -17,7 +17,8 @@ textarea {
 /* Variáveis CSS */
 
 .event-html {
-  background-color: var(--details-color-secundary);
+  margin-top: 10%;
+  /* background-color: var(--details-color-secundary); */
 }
 
 .body-data {
