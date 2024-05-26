@@ -1,0 +1,12 @@
+.body-data::before {
+  background-color: #6e92a7;
+}
+.page-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

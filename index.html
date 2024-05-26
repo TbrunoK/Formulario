@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <title>Crie seu evento</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Crie e compartilhe seu evento.</h1>
+        <p>O primeiro passo é preencher esse formulário de inscrição</p>
+      </header>
+      <form id="event-form">
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informações do evento</legend>
+            <div class="input-wrapper">
+              <label for="event-title"
+                >Título do evento <span>(Mínimo 8 caracteres)</span></label
+              >
+              <input type="text" id="event-title" minlength="8" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-link"
+                >Link do evento <span>(Comece com https://)</span></label
+              >
+              <input type="url" id="event-link" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-whatsapp"
+                >Whatsapp para contato
+                <span>Somente números (com DDD)</span></label
+              >
+              <input type="number" id="event-whatsapp" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-info">Descrição do evento</label>
+              <textarea id="event-info"></textarea>
+            </div>
+            <div class="input-wrapper">
+              <label for="event-category">Categoria</label>
+              <select id="event-category">
+                <option value="live">Ao vivo</option>
+                <option value="podcast">Podcast</option>
+                <option value="mentorship">Mentoria</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Privacidade</legend>
+            <div class="input-wrapper">
+              <label for="event-email"
+                >E-mail do administrador
+                <span>Digite um e-mail válido</span></label
+              >
+              <input type="email" id="event-email" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-password"
+                >Senha de acesso para os participantes
+                <span>(Mínimo 8 caracteres)</span></label
+              >
+              <input
+                type="password"
+                id="event-password"
+                minlength="8"
+                required
+              />
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Dia e Horário</legend>
+            <div class="date-col">
+              <div class="input-wrapper">
+                <label for="event-date">Data</label>
+                <input type="date" id="event-date" required />
+              </div>
+              <div class="input-wrapper">
+                <label for="event-begin">Início</label>
+                <input type="time" id="event-begin" required />
+              </div>
+              <div class="input-wrapper">
+                <label for="event-end">Fim</label>
+                <input type="time" id="event-end" required />
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="event-submit">
+          <button type="submit">Cadastrar Evento</button>
+        </div>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
