@@ -10,11 +10,9 @@ Formulário de inscrição intuitivo para fornecer informações detalhadas sobr
 Campos para título, descrição, link do evento, categoria e detalhes de contato.
 Privacidade e Segurança:
 
-
 Opções para definir e-mail do administrador e senha de acesso para os participantes.
 Garantia de proteção dos dados do evento e controle de acesso às sessões.
 Agendamento de Eventos:
-
 
 Especificação da data, hora de início e fim do evento.
 Facilidade de agendamento para garantir que os participantes estejam informados sobre o horário correto.
