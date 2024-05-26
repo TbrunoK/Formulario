@@ -1,17 +1,20 @@
-Descrição do Projeto: Plataforma de Criação de Eventos Online
-Visão Geral
+<h1>Plataforma de Criação de Eventos Online</h1>
+
+<h2>Visão Geral</h2> 
 A "Plataforma de Criação de Eventos Online" é uma ferramenta web que permite aos usuários criar e compartilhar eventos virtuais com facilidade. Com um formulário intuitivo, os organizadores podem fornecer detalhes essenciais sobre seus eventos, desde o título e descrição até a data e hora de início. Esta plataforma visa simplificar o processo de organização de eventos online, oferecendo uma solução abrangente e acessível para uma variedade de ocasiões, como transmissões ao vivo, podcasts e sessões de mentoria.
 
-Funcionalidades Principais
-Criação de Eventos:
+<h2>Funcionalidades Principais</h2>
 
+Criação de Eventos:
 Formulário de inscrição intuitivo para fornecer informações detalhadas sobre o evento.
 Campos para título, descrição, link do evento, categoria e detalhes de contato.
 Privacidade e Segurança:
 
+
 Opções para definir e-mail do administrador e senha de acesso para os participantes.
 Garantia de proteção dos dados do evento e controle de acesso às sessões.
 Agendamento de Eventos:
+
 
 Especificação da data, hora de início e fim do evento.
 Facilidade de agendamento para garantir que os participantes estejam informados sobre o horário correto.
