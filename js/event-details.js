@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Cria o HTML com os detalhes do evento
   const eventDetailsHTML = `
-        <h2>${title}</h2>
+        <h2 class="event-title">${title}</h2>
         <p><strong>Link do evento:</strong> <a href="${link}" target="_blank">${link}</a></p>
         <p><strong>Whatsapp para contato:</strong> ${whatsapp}</p>
         <p><strong>Descrição:</strong> ${info}</p>
