@@ -47,6 +47,7 @@ textarea {
 }
 
 .page-data h1 {
+  text-transform: uppercase;
   color: var(--details-color-primary);
 }
 
